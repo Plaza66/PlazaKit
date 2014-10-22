@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>110C8DDB-AB31-4732-BF17-E18553B686DE</string>
+	<key>IDESourceControlProjectName</key>
+	<string>PlazaKit</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>6FB82C7E415AF569C10D0E1149A333306C573D39</key>
+		<string>https://github.com/Plaza66/PlazaKit.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>PlazaKit/PlazaKit.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>6FB82C7E415AF569C10D0E1149A333306C573D39</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/Plaza66/PlazaKit.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>6FB82C7E415AF569C10D0E1149A333306C573D39</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>6FB82C7E415AF569C10D0E1149A333306C573D39</string>
+			<key>IDESourceControlWCCName</key>
+			<string>PlazaKit</string>
+		</dict>
+	</array>
+</dict>
+</plist>

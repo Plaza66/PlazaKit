@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PlazaKitTests/PlazaKitTests.m"
+            timestampString = "435663928.172638"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "32"
+            endingLineNumber = "32"
+            landmarkName = "-testExample"
+            landmarkType = "5">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[PlazaKitTests testExample]"
+                  moduleName = "PlazaKitTests"
+                  urlString = "file:///Users/liyan/Documents/work/git/PlazaKit/PlazaKit/PlazaKitTests/PlazaKitTests.m"
+                  timestampString = "435665328.946362"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "32"
+                  endingLineNumber = "32"
+                  offsetFromSymbolStart = "298">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[PlazaKitTests testExample]"
+                  moduleName = "PlazaKitTests"
+                  urlString = "file:///Users/liyan/Documents/work/git/PlazaKit/PlazaKit/PlazaKitTests/PlazaKitTests.m"
+                  timestampString = "435665328.946583"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "32"
+                  endingLineNumber = "32"
+                  offsetFromSymbolStart = "691">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[PlazaKitTests testExample]"
+                  moduleName = "PlazaKitTests"
+                  urlString = "file:///Users/liyan/Documents/work/git/PlazaKit/PlazaKit/PlazaKitTests/PlazaKitTests.m"
+                  timestampString = "435665328.94684"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "32"
+                  endingLineNumber = "32"
+                  offsetFromSymbolStart = "782">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[PlazaKitTests testExample]"
+                  moduleName = "PlazaKitTests"
+                  urlString = "file:///Users/liyan/Documents/work/git/PlazaKit/PlazaKit/PlazaKitTests/PlazaKitTests.m"
+                  timestampString = "435665328.947008"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "32"
+                  endingLineNumber = "32"
+                  offsetFromSymbolStart = "925">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

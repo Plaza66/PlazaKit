@@ -15,6 +15,10 @@
 		BAC88F0A19F7A5BE00A822D5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BAC88F0919F7A5BE00A822D5 /* Images.xcassets */; };
 		BAC88F0D19F7A5BE00A822D5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BAC88F0B19F7A5BE00A822D5 /* LaunchScreen.xib */; };
 		BAC88F1919F7A5BE00A822D5 /* PlazaKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BAC88F1819F7A5BE00A822D5 /* PlazaKitTests.m */; };
+		BAC88F2F19F7B72500A822D5 /* NSObject+SelectorLeakWarning.m in Sources */ = {isa = PBXBuildFile; fileRef = BAC88F2E19F7B72500A822D5 /* NSObject+SelectorLeakWarning.m */; };
+		BAC88F3519F7B99500A822D5 /* PKBaseDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BAC88F3219F7B99500A822D5 /* PKBaseDataModel.m */; };
+		BAC88F3619F7B99500A822D5 /* PKBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BAC88F3419F7B99500A822D5 /* PKBaseModel.m */; };
+		BAC88F3A19F7B9AC00A822D5 /* PKTestDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BAC88F3919F7B9AC00A822D5 /* PKTestDataModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +46,15 @@
 		BAC88F1219F7A5BE00A822D5 /* PlazaKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlazaKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAC88F1719F7A5BE00A822D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BAC88F1819F7A5BE00A822D5 /* PlazaKitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlazaKitTests.m; sourceTree = "<group>"; };
+		BAC88F2C19F7B65000A822D5 /* QBDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QBDefine.h; sourceTree = "<group>"; };
+		BAC88F2D19F7B72500A822D5 /* NSObject+SelectorLeakWarning.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SelectorLeakWarning.h"; sourceTree = "<group>"; };
+		BAC88F2E19F7B72500A822D5 /* NSObject+SelectorLeakWarning.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SelectorLeakWarning.m"; sourceTree = "<group>"; };
+		BAC88F3119F7B99500A822D5 /* PKBaseDataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PKBaseDataModel.h; sourceTree = "<group>"; };
+		BAC88F3219F7B99500A822D5 /* PKBaseDataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PKBaseDataModel.m; sourceTree = "<group>"; };
+		BAC88F3319F7B99500A822D5 /* PKBaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PKBaseModel.h; sourceTree = "<group>"; };
+		BAC88F3419F7B99500A822D5 /* PKBaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PKBaseModel.m; sourceTree = "<group>"; };
+		BAC88F3819F7B9AC00A822D5 /* PKTestDataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PKTestDataModel.h; sourceTree = "<group>"; };
+		BAC88F3919F7B9AC00A822D5 /* PKTestDataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PKTestDataModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +96,8 @@
 		BAC88EF819F7A5BE00A822D5 /* PlazaKit */ = {
 			isa = PBXGroup;
 			children = (
+				BAC88F3719F7B9AC00A822D5 /* Test */,
+				BAC88F3019F7B99500A822D5 /* Model */,
 				BAC88EFD19F7A5BE00A822D5 /* AppDelegate.h */,
 				BAC88EFE19F7A5BE00A822D5 /* AppDelegate.m */,
 				BAC88F0319F7A5BE00A822D5 /* ViewController.h */,
@@ -92,6 +107,9 @@
 				BAC88F0B19F7A5BE00A822D5 /* LaunchScreen.xib */,
 				BAC88F0019F7A5BE00A822D5 /* PlazaKit.xcdatamodeld */,
 				BAC88EF919F7A5BE00A822D5 /* Supporting Files */,
+				BAC88F2C19F7B65000A822D5 /* QBDefine.h */,
+				BAC88F2D19F7B72500A822D5 /* NSObject+SelectorLeakWarning.h */,
+				BAC88F2E19F7B72500A822D5 /* NSObject+SelectorLeakWarning.m */,
 			);
 			path = PlazaKit;
 			sourceTree = "<group>";
@@ -120,6 +138,26 @@
 				BAC88F1719F7A5BE00A822D5 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BAC88F3019F7B99500A822D5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BAC88F3119F7B99500A822D5 /* PKBaseDataModel.h */,
+				BAC88F3219F7B99500A822D5 /* PKBaseDataModel.m */,
+				BAC88F3319F7B99500A822D5 /* PKBaseModel.h */,
+				BAC88F3419F7B99500A822D5 /* PKBaseModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BAC88F3719F7B9AC00A822D5 /* Test */ = {
+			isa = PBXGroup;
+			children = (
+				BAC88F3819F7B9AC00A822D5 /* PKTestDataModel.h */,
+				BAC88F3919F7B9AC00A822D5 /* PKTestDataModel.m */,
+			);
+			path = Test;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -222,6 +260,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BAC88F3619F7B99500A822D5 /* PKBaseModel.m in Sources */,
+				BAC88F2F19F7B72500A822D5 /* NSObject+SelectorLeakWarning.m in Sources */,
+				BAC88F3A19F7B9AC00A822D5 /* PKTestDataModel.m in Sources */,
+				BAC88F3519F7B99500A822D5 /* PKBaseDataModel.m in Sources */,
 				BAC88F0219F7A5BE00A822D5 /* PlazaKit.xcdatamodeld in Sources */,
 				BAC88EFF19F7A5BE00A822D5 /* AppDelegate.m in Sources */,
 				BAC88F0519F7A5BE00A822D5 /* ViewController.m in Sources */,
@@ -350,8 +392,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = PlazaKit/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -360,8 +404,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = PlazaKit/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
