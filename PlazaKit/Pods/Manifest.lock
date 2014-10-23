@@ -20,14 +20,22 @@ PODS:
   - AFNetworking/UIKit (2.4.1):
     - AFNetworking/NSURLConnection
     - AFNetworking/NSURLSession
+  - Mantle (1.5.1):
+    - Mantle/extobjc
+  - Mantle/extobjc (1.5.1)
+  - Masonry (0.5.3)
   - Reachability (3.0.0)
 
 DEPENDENCIES:
   - AFNetworking (~> 2.0)
+  - Mantle (~> 1.5.1)
+  - Masonry (~> 0.5.3)
   - Reachability (~> 3.0.0)
 
 SPEC CHECKSUMS:
   AFNetworking: 0aabc6fae66d6e5d039eeb21c315843c7aae51ab
+  Mantle: d7c5ac734579ec751c58fecbf56189853056c58c
+  Masonry: 35368c2ca9577ca87722c12fc52c4bad9b1c1516
   Reachability: d369b8d7d33730a4bb71d0f601e287da9867c9dd
 
 COCOAPODS: 0.34.4
