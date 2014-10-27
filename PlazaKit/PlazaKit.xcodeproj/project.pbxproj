@@ -18,8 +18,8 @@
 		BAC88F0A19F7A5BE00A822D5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BAC88F0919F7A5BE00A822D5 /* Images.xcassets */; };
 		BAC88F0D19F7A5BE00A822D5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BAC88F0B19F7A5BE00A822D5 /* LaunchScreen.xib */; };
 		BAC88F1919F7A5BE00A822D5 /* PlazaKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BAC88F1819F7A5BE00A822D5 /* PlazaKitTests.m */; };
-		BAC88F2F19F7B72500A822D5 /* NSObject+SelectorLeakWarning.m in Sources */ = {isa = PBXBuildFile; fileRef = BAC88F2E19F7B72500A822D5 /* NSObject+SelectorLeakWarning.m */; };
 		BAC88F3A19F7B9AC00A822D5 /* PKTestDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BAC88F3919F7B9AC00A822D5 /* PKTestDataModel.m */; };
+		BAEAFFDA19FE3AC0000A2CED /* NSObject+SelectorLeakWarning.m in Sources */ = {isa = PBXBuildFile; fileRef = BAEAFFD919FE3AC0000A2CED /* NSObject+SelectorLeakWarning.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,10 +53,10 @@
 		BAC88F1719F7A5BE00A822D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BAC88F1819F7A5BE00A822D5 /* PlazaKitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlazaKitTests.m; sourceTree = "<group>"; };
 		BAC88F2C19F7B65000A822D5 /* QBDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QBDefine.h; sourceTree = "<group>"; };
-		BAC88F2D19F7B72500A822D5 /* NSObject+SelectorLeakWarning.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SelectorLeakWarning.h"; sourceTree = "<group>"; };
-		BAC88F2E19F7B72500A822D5 /* NSObject+SelectorLeakWarning.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SelectorLeakWarning.m"; sourceTree = "<group>"; };
 		BAC88F3819F7B9AC00A822D5 /* PKTestDataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PKTestDataModel.h; sourceTree = "<group>"; };
 		BAC88F3919F7B9AC00A822D5 /* PKTestDataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PKTestDataModel.m; sourceTree = "<group>"; };
+		BAEAFFD819FE3AC0000A2CED /* NSObject+SelectorLeakWarning.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SelectorLeakWarning.h"; sourceTree = "<group>"; };
+		BAEAFFD919FE3AC0000A2CED /* NSObject+SelectorLeakWarning.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SelectorLeakWarning.m"; sourceTree = "<group>"; };
 		D13465A4057017E9FA854588 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		DEC01515F07E940578E987F6 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -100,6 +100,7 @@
 		BABB010319F8D78D0039A099 /* src */ = {
 			isa = PBXGroup;
 			children = (
+				BAEAFFD719FE3AC0000A2CED /* Categorp */,
 				BABB010419F8D78D0039A099 /* Model */,
 			);
 			path = src;
@@ -151,8 +152,6 @@
 				BAC88F0019F7A5BE00A822D5 /* PlazaKit.xcdatamodeld */,
 				BAC88EF919F7A5BE00A822D5 /* Supporting Files */,
 				BAC88F2C19F7B65000A822D5 /* QBDefine.h */,
-				BAC88F2D19F7B72500A822D5 /* NSObject+SelectorLeakWarning.h */,
-				BAC88F2E19F7B72500A822D5 /* NSObject+SelectorLeakWarning.m */,
 			);
 			path = PlazaKit;
 			sourceTree = "<group>";
@@ -190,6 +189,15 @@
 				BAC88F3919F7B9AC00A822D5 /* PKTestDataModel.m */,
 			);
 			path = Test;
+			sourceTree = "<group>";
+		};
+		BAEAFFD719FE3AC0000A2CED /* Categorp */ = {
+			isa = PBXGroup;
+			children = (
+				BAEAFFD819FE3AC0000A2CED /* NSObject+SelectorLeakWarning.h */,
+				BAEAFFD919FE3AC0000A2CED /* NSObject+SelectorLeakWarning.m */,
+			);
+			path = Categorp;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -327,7 +335,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BAC88F2F19F7B72500A822D5 /* NSObject+SelectorLeakWarning.m in Sources */,
+				BAEAFFDA19FE3AC0000A2CED /* NSObject+SelectorLeakWarning.m in Sources */,
 				BABB010919F8D78D0039A099 /* PKBaseDataModel.m in Sources */,
 				BAC88F3A19F7B9AC00A822D5 /* PKTestDataModel.m in Sources */,
 				BAC88F0219F7A5BE00A822D5 /* PlazaKit.xcdatamodeld in Sources */,
