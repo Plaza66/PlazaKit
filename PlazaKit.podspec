@@ -1,10 +1,10 @@
 Pod::Spec.new do |s|
-s.name         = 'PK_podspec'
+s.name         = 'PlazaKit'
 s.version      = '0.0.1'
 s.summary      = 'PlazaKit is an Objective-C library for iOS developers.'
 s.homepage     = 'https://github.com/Plaza66/PlazaKit'
 s.license = { :type => 'MIT', :file => 'LICENSE' }
-s.author       = { "test" => "test@gmail.com" }
+s.author       = { "PlazaKit" => "plazaKit@gmail.com" }
 s.source       = { :git => 'https://github.com/Plaza66/PlazaKit.git',:tag => '0.0.1'}
 s.platform     = :ios, '7.0'
 
