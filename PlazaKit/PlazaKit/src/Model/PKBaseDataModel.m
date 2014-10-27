@@ -5,7 +5,6 @@
 //  Created by liyan on 10/22/14.
 //  Copyright (c) 2014 Plaza66. All rights reserved.
 //
-#import "QBDefine.h"
 #import "PKBaseDataModel.h"
 #import "NSObject+SelectorLeakWarning.h"
 #include <objc/runtime.h>
