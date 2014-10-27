@@ -114,7 +114,7 @@
     }
 }
 
-- (NSString*) className:(NSString *)propertyTypeName
+- (NSString*)className:(NSString *)propertyTypeName
 {
     NSLog(@"%@", propertyTypeName);
     NSString* name = [[propertyTypeName componentsSeparatedByString:@","] objectAtIndex:0];
