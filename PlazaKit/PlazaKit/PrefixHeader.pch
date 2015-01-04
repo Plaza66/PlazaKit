@@ -1,0 +1,23 @@
+//
+//  PrefixHeader.pch
+//  PlazaKit
+//
+//  Created by liyan on 1/1/15.
+//  Copyright (c) 2015 Plaza66. All rights reserved.
+//
+
+#ifdef __OBJC__
+
+
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#define MAS_SHORTHAND_GLOBALS
+#import <Masonry/Masonry.h>
+//define this constant if you want to use Masonry without the 'mas_' prefix
+#define MAS_SHORTHAND
+#import "Masonry.h"
+#import "PlazaKit.h"
+
+
+
+#endif

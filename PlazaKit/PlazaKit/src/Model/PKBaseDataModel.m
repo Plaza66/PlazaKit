@@ -6,7 +6,7 @@
 //  Copyright (c) 2014 Plaza66. All rights reserved.
 //
 #import "PKBaseDataModel.h"
-#import "NSObject+SelectorLeakWarning.h"
+#import "PK_NSObject+SelectorLeakWarning.h"
 #include <objc/runtime.h>
 
 @interface PKBaseDataModel()

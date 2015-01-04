@@ -6,9 +6,9 @@
 //  Copyright (c) 2014 Plaza66. All rights reserved.
 //
 
-#import "NSObject+SelectorLeakWarning.h"
+#import "PK_NSObject+SelectorLeakWarning.h"
 
-@implementation NSObject (SelectorLeakWarning)
+@implementation NSObject (PK_SelectorLeakWarning)
 
 - (id)pk_performSelector:(SEL)aSelector
 {

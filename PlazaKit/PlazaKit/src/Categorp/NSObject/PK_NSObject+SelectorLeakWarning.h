@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-@interface NSObject (SelectorLeakWarning)
+@interface NSObject (PK_SelectorLeakWarning)
 
 - (id)pk_performSelector:(SEL)aSelector;
 - (id)pk_performSelector:(SEL)aSelector withObject:(id)object;

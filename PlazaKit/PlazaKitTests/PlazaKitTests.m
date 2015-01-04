@@ -27,8 +27,6 @@
 
 - (void)testExample {
     // This is an example of a functional test case.
-    NSDictionary *dic = @{@"key1":@"value1",@"key4":@[@"1",@"2"],@"key3":@"value3"};
-    PKTestDataModel *model = [[PKTestDataModel alloc]initWithDict:dic];;
     XCTAssert(YES, @"Pass");
 }
 
